@@ -14,6 +14,10 @@
 		C717224721685AEE0075CDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C717224521685AEE0075CDCE /* LaunchScreen.storyboard */; };
 		C717225221685AEE0075CDCE /* ncmbLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717225121685AEE0075CDCE /* ncmbLocationTests.swift */; };
 		C717225D21685AEE0075CDCE /* ncmbLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717225C21685AEE0075CDCE /* ncmbLocationUITests.swift */; };
+		C76164302168678000392AE9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C761642F2168678000392AE9 /* MapKit.framework */; };
+		C77707DE20AF657D3C3D3551 /* libPods-ncmbLocationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E0163EB0DC9D0E157A1369 /* libPods-ncmbLocationTests.a */; };
+		E2A98C5598BE3DAE78FEB41D /* libPods-ncmbLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A373EFF70BD7B7B93583773 /* libPods-ncmbLocation.a */; };
+		EC2EE59F51421DACDDE27BDC /* libPods-ncmbLocationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC393DFAFD7B5F652ADA6D71 /* libPods-ncmbLocationUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F0B05600EC640208B5C94D /* Pods-ncmbLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmbLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ncmbLocation/Pods-ncmbLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		08D84D62F22944E6C6E04A24 /* Pods-ncmbLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmbLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-ncmbLocation/Pods-ncmbLocation.release.xcconfig"; sourceTree = "<group>"; };
+		147D7B31A22529F0159AF55A /* Pods-ncmbLocationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmbLocationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ncmbLocationUITests/Pods-ncmbLocationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A373EFF70BD7B7B93583773 /* libPods-ncmbLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ncmbLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5836C3213EEB523F293B2B3E /* Pods-ncmbLocationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmbLocationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ncmbLocationUITests/Pods-ncmbLocationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6E0163EB0DC9D0E157A1369 /* libPods-ncmbLocationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ncmbLocationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34821CFB4D60D412BD06265 /* Pods-ncmbLocationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmbLocationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ncmbLocationTests/Pods-ncmbLocationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C717223921685AED0075CDCE /* ncmbLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ncmbLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C717223C21685AED0075CDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C717223E21685AED0075CDCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,10 @@
 		C717225821685AEE0075CDCE /* ncmbLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ncmbLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C717225C21685AEE0075CDCE /* ncmbLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ncmbLocationUITests.swift; sourceTree = "<group>"; };
 		C717225E21685AEE0075CDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C761642E2168671900392AE9 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		C761642F2168678000392AE9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CC393DFAFD7B5F652ADA6D71 /* libPods-ncmbLocationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ncmbLocationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5783E768529527DCF15DF3 /* Pods-ncmbLocationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmbLocationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ncmbLocationTests/Pods-ncmbLocationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76164302168678000392AE9 /* MapKit.framework in Frameworks */,
+				E2A98C5598BE3DAE78FEB41D /* libPods-ncmbLocation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77707DE20AF657D3C3D3551 /* libPods-ncmbLocationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2EE59F51421DACDDE27BDC /* libPods-ncmbLocationUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				C717225021685AEE0075CDCE /* ncmbLocationTests */,
 				C717225B21685AEE0075CDCE /* ncmbLocationUITests */,
 				C717223A21685AED0075CDCE /* Products */,
+				CE87B9768B21540C487A8711 /* Pods */,
+				F64AC97C4F530DE1A4005A4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,7 @@
 				C717224321685AEE0075CDCE /* Assets.xcassets */,
 				C717224521685AEE0075CDCE /* LaunchScreen.storyboard */,
 				C717224821685AEE0075CDCE /* Info.plist */,
+				C761642E2168671900392AE9 /* Bridge-Header.h */,
 			);
 			path = ncmbLocation;
 			sourceTree = "<group>";
@@ -125,6 +147,30 @@
 			path = ncmbLocationUITests;
 			sourceTree = "<group>";
 		};
+		CE87B9768B21540C487A8711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07F0B05600EC640208B5C94D /* Pods-ncmbLocation.debug.xcconfig */,
+				08D84D62F22944E6C6E04A24 /* Pods-ncmbLocation.release.xcconfig */,
+				B34821CFB4D60D412BD06265 /* Pods-ncmbLocationTests.debug.xcconfig */,
+				EF5783E768529527DCF15DF3 /* Pods-ncmbLocationTests.release.xcconfig */,
+				147D7B31A22529F0159AF55A /* Pods-ncmbLocationUITests.debug.xcconfig */,
+				5836C3213EEB523F293B2B3E /* Pods-ncmbLocationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F64AC97C4F530DE1A4005A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C761642F2168678000392AE9 /* MapKit.framework */,
+				2A373EFF70BD7B7B93583773 /* libPods-ncmbLocation.a */,
+				A6E0163EB0DC9D0E157A1369 /* libPods-ncmbLocationTests.a */,
+				CC393DFAFD7B5F652ADA6D71 /* libPods-ncmbLocationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C717226121685AEE0075CDCE /* Build configuration list for PBXNativeTarget "ncmbLocation" */;
 			buildPhases = (
+				2D160F6F350244A3B4C0A519 /* [CP] Check Pods Manifest.lock */,
 				C717223521685AED0075CDCE /* Sources */,
 				C717223621685AED0075CDCE /* Frameworks */,
 				C717223721685AED0075CDCE /* Resources */,
@@ -149,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C717226421685AEE0075CDCE /* Build configuration list for PBXNativeTarget "ncmbLocationTests" */;
 			buildPhases = (
+				7805153C134CA5585DA55F32 /* [CP] Check Pods Manifest.lock */,
 				C717224921685AEE0075CDCE /* Sources */,
 				C717224A21685AEE0075CDCE /* Frameworks */,
 				C717224B21685AEE0075CDCE /* Resources */,
@@ -167,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C717226721685AEE0075CDCE /* Build configuration list for PBXNativeTarget "ncmbLocationUITests" */;
 			buildPhases = (
+				E567549853CF14B3A49921B8 /* [CP] Check Pods Manifest.lock */,
 				C717225421685AEE0075CDCE /* Sources */,
 				C717225521685AEE0075CDCE /* Frameworks */,
 				C717225621685AEE0075CDCE /* Resources */,
@@ -193,6 +242,11 @@
 				TargetAttributes = {
 					C717223821685AED0075CDCE = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C717224C21685AEE0075CDCE = {
 						CreatedOnToolsVersion = 10.0;
@@ -250,6 +304,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D160F6F350244A3B4C0A519 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ncmbLocation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7805153C134CA5585DA55F32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ncmbLocationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E567549853CF14B3A49921B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ncmbLocationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C717223521685AED0075CDCE /* Sources */ = {
@@ -430,6 +541,7 @@
 		};
 		C717226221685AEE0075CDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F0B05600EC640208B5C94D /* Pods-ncmbLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +553,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.moongift.ncmbLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ncmbLocation/Bridge-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +561,7 @@
 		};
 		C717226321685AEE0075CDCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D84D62F22944E6C6E04A24 /* Pods-ncmbLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +573,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.moongift.ncmbLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ncmbLocation/Bridge-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +581,7 @@
 		};
 		C717226521685AEE0075CDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34821CFB4D60D412BD06265 /* Pods-ncmbLocationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +603,7 @@
 		};
 		C717226621685AEE0075CDCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5783E768529527DCF15DF3 /* Pods-ncmbLocationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +625,7 @@
 		};
 		C717226821685AEE0075CDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147D7B31A22529F0159AF55A /* Pods-ncmbLocationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +646,7 @@
 		};
 		C717226921685AEE0075CDCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5836C3213EEB523F293B2B3E /* Pods-ncmbLocationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
