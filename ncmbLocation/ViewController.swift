@@ -14,8 +14,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 	@IBOutlet weak var mapView: MKMapView!
 	@IBOutlet weak var latLabel: UILabel!
 	@IBOutlet weak var lngLabel: UILabel!
-	@IBOutlet weak var startButton: UIButton!
-	@IBOutlet weak var stopButton: UIButton!
 	
 	var locationManager : CLLocationManager?
 	
@@ -54,13 +52,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 			if err != nil {
 			} else {
 				let stations = objects as! [NCMBObject]
+				var annotations: [MKPointAnnotation] = []
 				for station in stations {
 					let geo = station.object(forKey: "geo") as! NCMBGeoPoint
 					let location = CLLocation.init(latitude: geo.latitude, longitude: geo.longitude)
 					let annotation = MKPointAnnotation()
 					annotation.coordinate = location.coordinate
-					self.mapView.addAnnotation(annotation)
+					annotations.append(annotation)
 				}
+				self.mapView.addAnnotations(annotations)
 			}
 		})
 	}
